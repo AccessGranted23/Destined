@@ -20,21 +20,26 @@
 
 	<!-- Favicons Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png">
+	
     
-	<!-- Globle Stylesheets -->
+    <!-- Global CSS -->
 	<link href="../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/vendor/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/vendor/nouislider/nouislider.min.css">
+	<link rel="stylesheet" href="../assets/vendor/swiper/swiper-bundle.min.css">
     
 	<!-- Stylesheets -->
     <link rel="stylesheet" class="main-css" type="text/css" href="../assets/css/style.css">
-    
+	
     <!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>   
-<body class="bg-white">
+<body class="bg-white" data-theme-color="color-primary-3">
 <div class="page-wrapper">
+    
 	<!-- Preloader -->
 	<div id="preloader">
 		<div class="loader">
@@ -42,43 +47,60 @@
 		</div>
 	</div>
     <!-- Preloader end-->
-
-    <!-- Page Content -->
-    <div class="page-content">
-		<div class="container">
-			<div class="account-area">
-				<a href="javascript:void(0);" class="back-btn dz-flex-box">
-					<i class="icon feather icon-chevron-left"></i>
-				</a>
-				<div class="section-head ps-0">
-					<h3>Enter your code</h3>
+	
+	<!-- Header -->
+		<header class="header header-fixed bg-white">
+			<div class="container">
+				<div class="header-content">
+					<div class="left-content me-3">
+						<a href="javascript:void(0);" class="back-btn">
+							<i class="icon feather icon-chevron-left"></i>
+						</a>
+						<h6 class="title">About</h6>
+					</div>
+					<div class="mid-content">
+					</div>
+					<div class="right-content">
+					</div>
 				</div>
-				<form action="submit">
-					<div id="otp" class="digit-group input-mini">
-						<input class="form-control" type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1">
-						<input class="form-control" type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2">
-						<input class="form-control" type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3">
-						<input class="form-control" type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4">
-					</div>                
-				</form>
 			</div>
-        </div>
-    </div>
-    <!-- Page Content End -->
-	<!-- Footer -->
-    <div class="footer fixed bg-white">
-		<div class="container">
-			<a href="first-name.html" class="btn btn-lg btn-gradient w-100 dz-flex-box btn-shadow rounded-xl">Next</a>
+		</header>
+	<!-- Header -->
+	
+	<!-- Page Content Start -->
+	<div class="page-content space-top">
+		<div class="container"> 
+			<div class="dz-list">
+				<ul>
+					<li>
+						<a href="privacy-policy.html" class="item-content item-link">
+							<div class="dz-inner">
+								<h6 class="dz-title">Privacy Police</h6>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="terms.html" class="item-content item-link">
+							<div class="dz-inner">
+								<h6 class="dz-title">Terms of Use</h6>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
-	<!-- Footer -->
-</div>
+	<!-- Page Content End -->
+</div>  
 <!--**********************************
     Scripts
 ***********************************-->
 <script src="../assets/js/jquery.js"></script>
 <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="../assets/vendor/wnumb/wNumb.js"></script><!-- WNUMB -->
+<script src="../assets/vendor/nouislider/nouislider.min.js"></script><!-- NOUSLIDER MIN JS-->
+<script src="../assets/js/noui-slider.init.js"></script><!-- NOUSLIDER MIN JS-->
 <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script><!-- Swiper -->
 <script src="../assets/js/dz.carousel.js"></script><!-- Swiper -->
 <script src="../assets/js/settings.js"></script>

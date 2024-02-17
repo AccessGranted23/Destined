@@ -34,7 +34,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 </head>   
-<body class="bg-white"  data-theme-color="color-primary-2">
+<body class="bg-white">
 <div class="page-wrapper">
 	<!-- Preloader -->
 	<div id="preloader">
@@ -47,26 +47,19 @@
     <!-- Page Content -->
     <div class="page-content p-b70">
 		<div class="container">
-			<div class="account-area style-2">
-				<a href="javascript:void(0);" class="back-btn">
-					<i class="icon feather icon-arrow-left"></i>
+			<div class="account-area">
+				<a href="javascript:void(0);" class="back-btn dz-flex-box">
+					<i class="icon feather icon-chevron-left"></i>
 				</a>
 				<div class="section-head ps-0">
-					<h2>Add your recent pics</h2>
-					<p>Upload 2 photos to start. Add 4 or more to make your profile stand out.</p>
+					<h3>Add your recent pics</h3>
 				</div>
 				<div class="row g-3"  data-masonry='{"percentPosition": true }'>
-					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/w3tinder/liked/pic1.png" alt="">
-							<div class="drop-bx">
-								<div class="imagePreview active" style="background-image: url(../assets/images/w3tinder/liked/pic1.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
-									</div>
+					<div class="col-8">
+						<div class="dz-drop-box">
+							<div class="drop-bx bx-lg">
+								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+									<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
 									<input type='file' class="form-control d-none imageUpload"  id="imageUpload" accept=".png, .jpg, .jpeg">
 									<label for="imageUpload"></label>
 								</div>
@@ -74,50 +67,39 @@
 						</div>
 					</div>
 					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/recent-pic/drop-bx2.png" alt="">
-							<div class="drop-bx">
-								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx2.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
+						<div class="row g-3">
+							<div class="col-12">
+								<div class="dz-drop-box">
+									<img src="../assets/images/recent-pic/drop-bx.png" alt="">
+									<div class="drop-bx">
+										<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+											<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
+											<input type='file' class="form-control d-none imageUpload"  id="imageUpload2" accept=".png, .jpg, .jpeg">
+											<label for="imageUpload2"></label>
+										</div>
 									</div>
-									<input type='file' class="form-control d-none imageUpload"  id="imageUpload2" accept=".png, .jpg, .jpeg">
-									<label for="imageUpload2"></label>
+								</div>
+							</div>
+							<div class="col-12">
+								<div class="dz-drop-box">
+									<img src="../assets/images/recent-pic/drop-bx.png" alt="">
+									<div class="drop-bx">
+										<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+											<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
+											<input type='file' class="form-control d-none imageUpload"  id="imageUpload3" accept=".png, .jpg, .jpeg">
+											<label for="imageUpload3"></label>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/recent-pic/drop-bx2.png" alt="">
+						<div class="dz-drop-box">
+							<img src="../assets/images/recent-pic/drop-bx.png" alt="">
 							<div class="drop-bx">
-								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx2.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
-									</div>
-									<input type='file' class="form-control d-none imageUpload"  id="imageUpload3" accept=".png, .jpg, .jpeg">
-									<label for="imageUpload3"></label>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/recent-pic/drop-bx2.png" alt="">
-							<div class="drop-bx">
-								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx2.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
-									</div>
+								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+									<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
 									<input type='file' class="form-control d-none imageUpload"  id="imageUpload4" accept=".png, .jpg, .jpeg">
 									<label for="imageUpload4"></label>
 								</div>
@@ -125,16 +107,11 @@
 						</div>
 					</div>
 					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/recent-pic/drop-bx2.png" alt="">
+						<div class="dz-drop-box">
+							<img src="../assets/images/recent-pic/drop-bx.png" alt="">
 							<div class="drop-bx">
-								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx2.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
-									</div>
+								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+									<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
 									<input type='file' class="form-control d-none imageUpload"  id="imageUpload5" accept=".png, .jpg, .jpeg">
 									<label for="imageUpload5"></label>
 								</div>
@@ -142,16 +119,11 @@
 						</div>
 					</div>
 					<div class="col-4">
-						<div class="dz-drop-box style-2">
-							<img src="../assets/images/recent-pic/drop-bx2.png" alt="">
+						<div class="dz-drop-box">
+							<img src="../assets/images/recent-pic/drop-bx.png" alt="">
 							<div class="drop-bx">
-								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx2.png);">
-									<label for="imageUpload" class="add-btn">
-										<i class="icon feather icon-plus"></i>
-									</label>
-									<div class="remove-img remove-btn">
-										<i class="icon feather icon-x"></i>
-									</div>
+								<div class="imagePreview" style="background-image: url(../assets/images/recent-pic/drop-bx.png);">
+									<div  class="remove-img remove-btn d-none"><i class="icon feather icon-x"></i></div>
 									<input type='file' class="form-control d-none imageUpload"  id="imageUpload6" accept=".png, .jpg, .jpeg">
 									<label for="imageUpload6"></label>
 								</div>
@@ -164,7 +136,7 @@
     </div>
     <!-- Page Content End -->
 	<!-- Footer -->
-    <div class="footer fixed bg-white p-b15">
+    <div class="footer fixed bg-white">
 		<div class="container">
 			<a href="home.html" class="btn btn-lg btn-gradient w-100 dz-flex-box btn-shadow rounded-xl">Next</a>
 		</div>
